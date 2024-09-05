@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![SS Desktop](./images/desktop.png)
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live Site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/imandreans/nft-preview-card-component-main)
+- Live Site URL: [Live Site URL here](https://imandreans.github.io/nft-preview-card-component-main/)
 
 ## My process
 
@@ -44,7 +44,35 @@ Users should be able to:
 
 ### What I learned
 
+I learn how to utilize CSS to make Icon View appears when we hover the image. Below is the code to make it happens.
+
+```
+#view-nft {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    background: rgba(0, 255, 247, 0.6);
+    transition: 0.6s;
+    background-image: url("images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #view-nft:hover {
+    opacity: 1;
+  }
+```
+
 ### Continued development
+
+I want to improve the design more by testing and debugging it. But, I still need to learn more about how to use Percy.
 
 ## Author
 
